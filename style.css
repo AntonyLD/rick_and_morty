@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    color: beige;
 }
 
 @media screen and (min-width: 320px) and (max-width:768px ){
@@ -15,10 +16,9 @@
     }
 
     main{
-        max-height: 100vh;
+        min-height: 100vh;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
     }
 
@@ -29,7 +29,7 @@
         display: block;
         z-index: -1;
     }
-    
+
     @keyframes rotacao {
         0% {
             transform: rotate(0deg);
@@ -39,10 +39,20 @@
         }
     }
 
+    .starsBackground {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -2;
+    }
+    
+   
+
     #imgContainer{
-        position: relative;
         min-width: 100vw;
-        height: 300px;
+        min-height: 440px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -51,8 +61,6 @@
     }
 
     #caracterImg{
-        position: absolute;
-        top: 150px;
         border-radius: 50%;
         min-width: 200px;
         height: 200px;
@@ -71,13 +79,10 @@
 
 }
 
-.starsBackground {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+#boxStatus{
+    height: 130px;
 }
+
 
 
 .starsBackground {
