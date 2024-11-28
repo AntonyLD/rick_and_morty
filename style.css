@@ -6,21 +6,11 @@
 
 @media screen and (min-width: 320px) and (max-width:768px ){
     body{
-        max-width: 100vw;
-        min-height: 100vh;
-        background-position: center;
-        background-size: 350px;
-        background-repeat: no-repeat;
-        background-color: black;
+        
         
     }
 
-    main{
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+    
 
     #img-portal{
         height: 450px;
@@ -50,16 +40,7 @@
     
    
 
-    #imgContainer{
-        max-width: 100%;
-        height: 440px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-        
-    }
-
+    
     #caracterImg{
         border-radius: 50%;
         min-width: 200px;
@@ -79,9 +60,7 @@
 
 }
 
-#boxStatus{
-    height: 130px;
-}
+
 
 
 
