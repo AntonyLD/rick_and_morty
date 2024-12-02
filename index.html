@@ -1,46 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <main>
+        <div id="rickM">
+            <img src="assets/Rick.png" alt="">
+        </div>
 
-        <div class="starsBackground"></div>
-        <img id="img-portal" src="assets/portal.gif" alt="">
-        
-
-        <section id="imgContainer">
-            <img id="caracterImg" class="visible" style="max-width: 200px;" src="">
-        </section>
+        <div id="boxIMG">
+            <img id="portal" src="assets/portal.gif" alt="">
+            <section id="imgContainer">
+                <img id="caracterImg" class="visible" style="max-width: 200px;" src="">
+            </section>
+        </div>
 
         <section id="boxStatus">
             <h1>Nome: <span id="nomePersonagem">Rick</span></h1>
-            <h3>Progenitor: <span id="progenitor"></span></h3>
+            <h3>Genero: <span id="progenitor"></span></h3>
             <h3>Planeta Natal: <span id="planNat"></span></h3>
             <h3>Espécie: <span id="especie"></span></h3>
             <h3>Vivo ou morto: <span id="vivoMorto"></span></h3>
         </section>
 
-        <section>
-            <button id="anterior">Anterior</button>
-            <button id="proximo">Proximo</button>
-        </section>
-        
-        <section>
+        <section id="buscar">
             <input id="input-text" type="text">
             <button id="buscar">Buscar</button>
         </section>
 
+        <section id="proximoAnt">
+            <button id="anterior">Anterior</button>
+            <button id="proximo">Proximo</button>
+        </section>
     </main>
-
-        
-
-    
 </body>
-</html>
 
+</html>

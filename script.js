@@ -11,8 +11,8 @@ let vivoMorto = document.querySelector("#vivoMorto")
 let imagemPersonagem = document.querySelector("#caracterImg")
 
 
-let dados = []; 
-let currentIndex = 0; 
+let dados = [];
+let currentIndex = 0;
 
 async function buscarDados() {
     try {
@@ -25,7 +25,7 @@ async function buscarDados() {
         }
 
         const resultados = await Promise.all(requisicoes);
-        dados = resultados.flatMap(resultado => resultado.results); 
+        dados = resultados.flatMap(resultado => resultado.results);
 
         buscarPersonagem(nomeInput.value);
     } catch (erro) {
@@ -36,9 +36,9 @@ async function buscarDados() {
 function buscarPersonagem(nome) {
     const idInput = nome.toLowerCase();
     const personagem = dados.find(p => p.name.toLowerCase().includes(idInput));
-    
+
     if (personagem) {
-        currentIndex = dados.indexOf(personagem); 
+        currentIndex = dados.indexOf(personagem);
         exibirPersonagem(currentIndex);
     } else {
         console.error("Personagem não encontrado.");
