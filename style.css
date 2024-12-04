@@ -13,6 +13,7 @@
         background-image: url(assets/starrysky.jpg);
         background-size: cover;
         overflow: hidden;
+        overflow-x: hidden;
     }
 
     #rickM{
@@ -34,13 +35,15 @@
         flex-direction: column;
         align-items: center;
         position: relative;
+        overflow: hidden;
+        overflow-x: hidden;
 
     }
 
     #portal {
-        bottom: -45px;
+        bottom: -25px;
         position: absolute;
-        width: 400px;
+        width: 355px;
         z-index: -1;
     }
 
