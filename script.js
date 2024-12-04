@@ -61,9 +61,10 @@ function exibirPersonagem(index) {
 }
 
 function atualizaPersonagem(newImage) {
+    
     imagemPersonagem.classList.remove('visible');
     imagemPersonagem.classList.add('hidden');
-
+    
     setTimeout(() => {
         imagemPersonagem.src = newImage;
         imagemPersonagem.classList.remove('hidden');
