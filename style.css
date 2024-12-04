@@ -30,18 +30,19 @@
 
     #boxIMG {
         width: 100%;
-        height: 300px;
+        height: 301px;
         display: flex;
         flex-direction: column;
         align-items: center;
         position: relative;
+        overflow: hidden;
 
     }
 
     #portal {
-        bottom: -45px;
+        bottom: -26px;
         position: absolute;
-        width: 400px;
+        width: 100%;
         z-index: -1;
     }
 
@@ -66,7 +67,7 @@
         font-family: "Parkinsans", sans-serif;
         margin: 0 auto;
         height: 200px;
-        margin-top: 20px;
+        margin-top: 18px;
         width: 75%;
 
     }
