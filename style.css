@@ -77,10 +77,7 @@
     #nomePersonagem{
         font-size: 2rem;
         color: rgb(0, 206, 209);
-            color: rgb(0, 206, 209);
-            -webkit-text-stroke: 1px rgb(198, 212, 0);
-            font-family: Arial, sans-serif;
-            text-align: center;
+        -webkit-text-stroke: 1px rgb(170, 207, 2);
     }
 
     #nomePersonagem{
