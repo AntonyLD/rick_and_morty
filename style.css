@@ -94,6 +94,9 @@
     }
 
     #buscar>input {
+        text-align: center;
+        font-size: 1.3em;
+        font-weight: bolder;
         color: black;
         height: 45px;
         width: 67%;
@@ -101,6 +104,8 @@
     }
 
     #buscar>button {
+        font-size: 1.3em;
+        font-weight: bolder;
         color: black;
         width: 30%;
         height: 50px;
@@ -116,6 +121,8 @@
     }
 
     #proximoAnt>button {
+        font-size: 1.3em;
+        font-weight: bolder;
         color: black;
         width: 49%;
         height: 45px;
