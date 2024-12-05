@@ -64,7 +64,7 @@
     #boxStatus {
         font-family: "Parkinsans", sans-serif;
         margin: 0 auto;
-        height: 200px;
+        max-height: 200px;
         margin-top: 18px;
         width: 75%;
     }
