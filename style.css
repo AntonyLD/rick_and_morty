@@ -12,7 +12,8 @@
         height: 100vh;
         background-image: url(assets/starrysky.jpg);
         background-size: cover;
-        
+        overflow: hidden;
+        overflow-x: hidden;
     }
 
     #rickM{
@@ -24,7 +25,8 @@
 
     #rickM img {
         width: 100%;
-        
+        overflow: hidden;
+        overflow-x: hidden;
     }
 
     #boxIMG {
@@ -48,7 +50,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        
+        overflow: hidden;
     }
 
     #caracterImg {
