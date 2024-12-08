@@ -96,22 +96,27 @@
     }
 
     #buscar>input {
-        text-align: center;
+        padding-left: 1rem;
         font-size: 1.3em;
         font-weight: bolder;
-        color: black;
-        height: 45px;
+        color: rgb(255, 255, 255);
+        height: 50px;
         width: 67%;
         border-radius: 10px;
+        background-color: rgba(0, 255, 200, 0.219) ;
+        border: 1px solid rgb(118, 207, 2);
     }
 
     #buscar>button {
         font-size: 1.3em;
         font-weight: bolder;
-        color: black;
+        color: rgb(255, 255, 255);
         width: 30%;
         height: 50px;
         border-radius: 10px;
+        background-color: rgba(0, 255, 200, 0.219) ;
+        border: 1px solid rgb(118, 207, 2);
+
     }
 
     #proximoAnt {
@@ -125,10 +130,12 @@
     #proximoAnt>button {
         font-size: 1.3em;
         font-weight: bolder;
-        color: black;
+        color: rgb(255, 255, 255);
         width: 49%;
         height: 45px;
         border-radius: 10px;
+        background-color: rgba(0, 255, 200, 0.219) ;
+        border: 1px solid rgb(118, 207, 2);
     }
 
     .hidden {
