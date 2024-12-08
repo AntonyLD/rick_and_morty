@@ -76,6 +76,11 @@
         text-align: center;
     }
 
+    #boxStatus span {
+        color: rgb(0, 206, 209);
+        -webkit-text-stroke: 1px rgba(118, 207, 2, 0.527);
+    }
+
     #nomePersonagem{
         font-size: 2rem;
         color: rgb(0, 206, 209);
@@ -105,7 +110,7 @@
         width: 67%;
         border-radius: 10px;
         background-color: rgba(0, 255, 200, 0.219) ;
-        border: 1px solid rgb(118, 207, 2);
+        border: 3px solid rgba(139, 255, 7, 0.76);
     }
 
     #buscar>button {
@@ -116,7 +121,7 @@
         height: 50px;
         border-radius: 10px;
         background-color: rgba(0, 255, 200, 0.219) ;
-        border: 1px solid rgb(118, 207, 2);
+        border: 3px solid rgba(139, 255, 7, 0.76);
 
     }
 
@@ -136,7 +141,7 @@
         height: 45px;
         border-radius: 10px;
         background-color: rgba(0, 255, 200, 0.219) ;
-        border: 1px solid rgb(118, 207, 2);
+        border: 3px solid rgba(139, 255, 7, 0.76);
     }
 
     .hidden {
